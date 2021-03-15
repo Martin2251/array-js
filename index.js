@@ -16,3 +16,9 @@ const result = priceList.map(function (element) {
 });
 console.log(result);
 // doubles the result
+
+const sortedList = priceList.sort(function compare(a, b) {
+  return b - a;
+});
+
+console.log(sortedList);
